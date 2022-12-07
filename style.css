@@ -3,22 +3,16 @@ body {
     font-size: 20px;
     width: 900px;
     background-color: blanchedalmond;
-    
 }
 h1 {
     display: flex;
     justify-content: center;
 }
-
 p {
     display: flex;
 }
 .small {
     justify-content: center;
-}
-.name { 
-}
-.foto {  
 }
 .header {
     display: flex;
@@ -47,6 +41,3 @@ p {
 .languages {
     width: 450px;
 }
-
-
-
