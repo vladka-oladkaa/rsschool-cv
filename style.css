@@ -1,4 +1,59 @@
+body {
+    color: black;
+    font-size: 20px;
+    width: 900px;
+    background-color: blanchedalmond;
+    
+}
 
 h1 {
-  color: red;
+    display: flex;
+    justify-content: center;
 }
+
+p {
+    display: flex;
+}
+.small {
+    justify-content: center;
+}
+.name {
+    
+}
+
+.foto {
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    width: 450px;
+}
+.aboutme {
+    width: 450px;
+}
+.skills {
+    width: 450px;
+}
+.experience {
+    width: 450px;
+}
+.education {
+    width: 450px;
+}
+.languages {
+    width: 450px;
+}
+
+
+
