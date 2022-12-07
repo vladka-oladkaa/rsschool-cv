@@ -5,7 +5,6 @@ body {
     background-color: blanchedalmond;
     
 }
-
 h1 {
     display: flex;
     justify-content: center;
@@ -17,25 +16,19 @@ p {
 .small {
     justify-content: center;
 }
-.name {
-    
+.name { 
 }
-
-.foto {
-    
+.foto {  
 }
-
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
 .section1 {
     display: flex;
     justify-content: space-around;
 }
-
 .contact {
     width: 450px;
 }
