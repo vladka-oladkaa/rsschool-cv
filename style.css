@@ -1,9 +1,48 @@
-body {
-    color: black;
-    font-size: 20px;
-    width: 900px;
-    background-color: blanchedalmond;
+@font-face {
+    font-family: 'SignikaNegative';
+    src: url("assets/fonts/Signika_Negative/SignikaNegative-Medium.ttf");
 }
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-family: 'SignikaNegative';
+    font-size: 25px;
+    color: black;
+}
+
+.header {
+    height: 130px;
+    background-color: rgb(0, 255, 174);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 16px 30px 0px 0px;
+  }
+
+  .nav-link {
+    padding: 0 20px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+  }
+
 h1 {
     display: flex;
     justify-content: center;
@@ -14,7 +53,7 @@ p {
 .small {
     justify-content: center;
 }
-.header {
+.header1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
