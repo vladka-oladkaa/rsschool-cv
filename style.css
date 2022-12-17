@@ -49,6 +49,12 @@ body {
     font-size: 25px;
     text-decoration: none;
     color: #000;
+    transition: 0.4s;
+
+  }
+
+  .nav-item :hover {
+    color: rgb(255, 153, 0);
   }
 
   .section {
@@ -77,6 +83,16 @@ body {
     margin: 5px auto;
   }
 
+  .link-experience {
+    text-decoration: none;
+    color: rgb(144, 16, 112);
+    transition: 0.4s;
+  }
+
+  .link-experience:hover {
+    color: rgb(255, 153, 0);
+  }
+
   .footer {
     height: 70px;
     background-color: rgb(0, 255, 174);
@@ -90,4 +106,24 @@ body {
 
 .text-footer {
     margin-right: auto;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: rgb(144, 16, 112);
+    transition: 0.4s;
+}
+
+.link-footer:hover {
+  color: rgb(255, 153, 0);
+}
+
+.link-contacts {
+    text-decoration: none;
+    color: rgb(144, 16, 112);
+    transition: 0.4s;
+}
+
+.link-contacts:hover {
+  color: rgb(255, 153, 0);
 }
