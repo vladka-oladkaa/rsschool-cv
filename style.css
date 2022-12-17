@@ -42,67 +42,73 @@ body {
     align-items: center;
     padding: 16px 30px 0px 0px;
     list-style: none;
-  }
+}
 
-  .nav-link {
+.nav-link {
     padding: 0 20px;
     font-size: 25px;
     text-decoration: none;
     color: #000;
     transition: 0.4s;
+}
 
-  }
-
-  .nav-item :hover {
+.nav-item :hover {
     color: rgb(255, 153, 0);
-  }
+}
 
-  .section {
+.section {
     width: 50%;
     padding: 0px 20px;
-  }
+}
 
-  @media (max-width: 768px) {
+.section-name {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
     .section {
       width: 100%;
     }
-  }
+}
 
-  h1 {
+h1 {
     display: flex;
     justify-content: center;
-  }
+    align-items: center;
+}
 
-  h2 {
+h2 {
     display: flex;
     justify-content: center;
-  }
+}
 
-  .img-profile {
+.img-profile {
     display: flex;
-    margin: 5px auto;
-  }
+    margin: 5px;
+}
 
-  .link-experience {
+.link-experience {
     text-decoration: none;
     color: rgb(144, 16, 112);
     transition: 0.4s;
-  }
+}
 
-  .link-experience:hover {
+.link-experience:hover {
     color: rgb(255, 153, 0);
-  }
+}
 
-  .footer {
+.footer {
     height: 70px;
     background-color: rgb(0, 255, 174);
-  }
+}
 
-  .footer-container {
+.footer-container {
     display: flex;
     max-width: 1440px;
     margin: 0 auto;
-  }
+}
 
 .text-footer {
     margin-right: auto;
