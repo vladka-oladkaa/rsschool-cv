@@ -1,52 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
  <head>
    <title>CV vladka-oladkaa</title>
    <link href="style.css" rel="stylesheet">
+   <link rel="icon" href="assets/images/favicon.ico">
    <meta charset="utf-8">
  </head>
  <body>
-   <div class="header">
-    <div class="name">
-        <h1>Vlad Sushchyk</h1>
-    </div>
-    <div class="foto">
-        <img src="images/avatarr.png">
-    </div>
-   </div> 
-   <div class="section1">
-     <div class="contact">
-        <h1 >Contacts</h1>
-        <ul>
-           <li>discord: Vlad Sushchyk(@vladka-oladkaa)</li> 
-           <li>telegram: Vlad Sushchik</li>
-           <li>email: vlad.sushchek@gmail.com</li>  
-        </ul>
-     </div>
-     <div class="aboutme">
-        <h1 >About me</h1>
-        <p>Hi my name is Vlad) The little story of how i decided to try the frontend. I have taken testing courses and one of the tasks was a site testing. When i did this task, i'm understand that 80% of the task i studying the shell of the site and that it was very interesting. So now i want to get as much knowledge as possible and move in this direction.</p>
-     </div> 
-   </div>
-   <div class="section1">
-     <div class="skills">
-        <h1> Skills </h1>
-        <p class="small">Some HTML and css</p>
-     </div> 
-     <div class="experience">
-        <h1> Experience </h1>
-        <p class="small">Junior Dev <a href="https://github.com/vladka-oladkaa/rsschool-cv/tree/rsschool-cv-html">(cv task)</a></p>
-     </div>
-   </div>
-   <div class="section1">
-     <div class="education">
-        <h1>Education</h1> 
-        <p>2016-2020 Belarusian State University of Informatics and Radioelectronics(BSUIR). Specialty "Infocommunication technologies (multimedia information distribution systems)"</p>
-     </div>
-     <div class="languages">
-        <h1> Languages </h1>
-        <p class="small">English A1-A2</p>
-     </div>
-   </div> 
- </body> 
+   <header class="header">
+      <div class="container">
+         <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#about me" class="nav-link">About me</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+          </nav>
+      </div>
+   </header>
+   <main>
+      <div class="main-container">
+         <section class="section" id="profile">
+            <h1>Vlad Sushchyk</h1>
+         </section>
+         <section class="section" id="profile">
+            <img class="img-profile" alt="image" src="assets/images/avatarr.png">
+         </section>
+         <section class="section" id="contacts">
+            <h2>Contacts</h2>
+            <ul>
+               <li>discord: Vlad Sushchyk(@vladka-oladkaa)</li>
+               <li>telegram: <a href="https://t.me/noybrac" class="link-contacts">Vlad Sushchik</a></li>
+               <li>email: <a href="mailto:vlad.sushchek@gmail.com" class="link-contacts">vlad.sushchek@gmail.com</a></li>
+            </ul>
+         </section>
+         <section class="section" id="about me">
+            <h2>About me</h2>
+            <p>Hi my name is Vlad) The little story of how i decided to try the frontend. I have taken testing courses and one of the tasks was a site testing. When i did this task, i'm understand that 80% of the task i studying the shell of the site and that it was very interesting. So now i want to get as much knowledge as possible and move in this direction.</p>
+         </section>
+         <section class="section" id="skills">
+            <h2>Skills</h2>
+            <ul>
+               <li>Web-deveplopment: HTML5,CSS3</li>
+               <li>Version control: GIT,Github</li>
+            </ul>
+         </section>
+         <section class="section" id="experience">
+            <h2>Experience</h2>
+            <p>Junior Dev<a href="https://github.com/vladka-oladkaa/rsschool-cv/tree/rsschool-cv-html" class="link-experience"> (cv task)</a></p>
+         </section>
+         <section class="section" id="education">
+            <h2>Education</h2>
+            <p>2016-2020 Belarusian State University of Informatics and Radioelectronics(BSUIR). Specialty "Infocommunication technologies (multimedia information distribution systems)"</p>
+         </section>
+         <section class="section" id="languages">
+            <h2>Languages</h2>
+            <p>English A1-A2</p>
+         </section>
+      </div>
+   </main>
+   <footer class="footer">
+      <div class="footer-container">
+         <p class="text-footer"> Ⓒ2022 <a href="https://github.com/vladka-oladkaa" class="link-footer">vladka-oladkaa</a></p>
+         <a href="https://rs.school/js-stage0/"><img alt="image" src="assets/images/rs_school_js.svg" width="100px" height="68px"></a>
+      </div>
+   </footer>
+ </body>
 </html>
